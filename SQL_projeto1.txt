@@ -19,6 +19,6 @@ CREATE TABLE notes(
 	categoria VARCHAR(32) NOT NULL,
 	person_id INT NOT NULL,
 	prioridade VARCHAR(32) NOT NULL,
-	prioridade VARCHAR(32),
+	ultima_atualizacao VARCHAR(32),
 	PRIMARY KEY(id)
 );
